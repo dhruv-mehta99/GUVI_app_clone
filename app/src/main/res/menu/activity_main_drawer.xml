@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_code_kata"
+            android:icon="@drawable/ic_code"
+            android:title="Code Kata" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/giftbox"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_baseline_discussion_24"
+            android:title="Discussion" />
+        <item
+            android:id="@+id/nav_invite_frnds"
+            android:icon="@drawable/ic_invitefiriends"
+            android:title="Invite Friends" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_questionmark"
+            android:title="Contact Us" />
+
+    </group>
+</menu>

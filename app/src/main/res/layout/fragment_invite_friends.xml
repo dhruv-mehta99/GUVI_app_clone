@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InviteFriendsFragment"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/txt_invitefirends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Invite friends"
+         />
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Share your awsome learning experiance at GUVI with your friends"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/screenshot"
+        android:paddingBottom="65dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtinvitevia"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Invite via"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/img_whatsapp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtinvitevia"
+            android:src="@drawable/ic_whatsapp"
+            android:layout_alignStart="@id/txtinvitevia"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/img_facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtinvitevia"
+            android:src="@drawable/ic_facebook"
+            android:layout_toLeftOf="@id/img_whatsapp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:id="@+id/img_twitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtinvitevia"
+            android:src="@drawable/ic_twitter"
+            android:layout_toRightOf="@id/img_whatsapp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:id="@+id/img_telegram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtinvitevia"
+            android:src="@drawable/ic_telegram"
+            android:layout_toRightOf="@id/img_twitter"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+</LinearLayout>
